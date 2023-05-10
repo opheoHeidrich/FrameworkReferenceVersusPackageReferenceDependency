@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication.FrameworkReference", "WebApplication.FrameworkReference\WebApplication.FrameworkReference.csproj", "{E71732C8-0112-4C30-9029-5DE35BD11CC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication.FrameworkReference", "WebApplication.FrameworkReference\WebApplication.FrameworkReference.csproj", "{E71732C8-0112-4C30-9029-5DE35BD11CC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication.PackageReferenceDependency", "WebApplication.PackageReferenceDependency\WebApplication.PackageReferenceDependency.csproj", "{7CD707C9-F68A-43E6-9C03-072C145A02A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication.PackageReferenceDependency", "WebApplication.PackageReferenceDependency\WebApplication.PackageReferenceDependency.csproj", "{7CD707C9-F68A-43E6-9C03-072C145A02A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LooseFiles", "LooseFiles", "{C6126E6B-7AC8-4963-A4BE-E676CFCBFA59}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+		..\ReproduceBug.ps1 = ..\ReproduceBug.ps1
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
